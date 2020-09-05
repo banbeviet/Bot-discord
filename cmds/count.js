@@ -14,7 +14,7 @@ module.exports.run = async(bot, message, args) =>{
 
 			vc.join().then(connection => {
 				console.log("[VOICE CHANNEL] joined countdown channel.");
-				const stream = ytdl('https://www.youtube.com/watch?v=YV8MuXjCHLQ', { filter:'audioonly' }) ;
+				const stream = ytdl('https://www.youtube.com/watch?v=ArnPGucQ7Fc&fbclid=IwAR1v0aMb6c1Mf_H2Tv_dr2Ou018tqWWLO-ISqGqMFc5KpV526WsN_XyUeG0', { filter:'audioonly' }) ;
 				
 				const dispatcher = connection.play(stream, streamOptions);
 				// console.log('fault-------------------');
