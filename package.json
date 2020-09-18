@@ -16,6 +16,7 @@
     "discord.js": "^12.3.1",
     "ffmpeg-binaries": "^4.0.0",
     "ffmpeg-static": "^4.2.7",
+    "lzma-native": "^6.0.1",
     "node-opus": "^0.3.3",
     "pg": "^8.3.3",
     "ytdl-core": "^3.2.2"
